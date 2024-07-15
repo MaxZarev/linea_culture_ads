@@ -197,7 +197,7 @@ class Linea(Client):
         """
         for _ in range(random.randint(2, 4)):
             self.open_linea()
-            self.click("//p[text()='Later']/parent::button", 5)
+            self.click("//p[text()='Later']/parent::button", 5, raiser=False)
             self.get_lxp()
 
             result = [self.run_quest(quest) for quest in Quests if quests_config.get(quest.name)]
@@ -255,6 +255,7 @@ class Linea(Client):
             self.click("//button[text()='Continue']")
             sleep_random(10, 15)
             logger.info(f"{self.ads_num} Не забудь сминтить кубы")
+            Database.change_status(quest.name, "done", self.ads_num)
             return True
 
 
