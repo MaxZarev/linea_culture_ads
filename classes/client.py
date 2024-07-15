@@ -254,12 +254,9 @@ class Linea(Client):
             sleep_random(3, 5)
             self.click("//button[text()='Continue']")
             sleep_random(10, 15)
-            self.click("//button[text()='Mint CUBE to claim']")
+            logger.info(f"{self.ads_num} Не забудь сминтить кубы")
+            return True
 
-            for _ in range(50):
-                if self.check_element("//h1[text()='Quest completed']", ):
-                    break
-                sleep_random(10, 15)
 
         # пропускаем страницу заданием, если это нужно
         if quest.value.skip:
