@@ -36,4 +36,5 @@ quests_config = {
     'quest_17': 1,  # w2-toad
     'quest_18': 1,  # week-2-voting
     'quest_19': 1,  # w3-ascendtheend-1
+    'quest_20': 1,  # w3-sendingme
 }
