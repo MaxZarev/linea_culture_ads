@@ -38,4 +38,5 @@ quests_config = {
     'quest_19': 1,  # w3-ascendtheend-1
     'quest_20': 1,  # w3-sendingme
     'quest_21': 1,  # w3-townstory
+    'quest_22': 1,  # w3-danielle-zosavac
 }
