@@ -40,4 +40,5 @@ quests_config = {
     'quest_21': 1,  # w3-townstory
     'quest_22': 1,  # w3-danielle-zosavac
     'quest_23': 1,  # w3-demmortal
+    'quest_24': 1,  # w3-foxy
 }

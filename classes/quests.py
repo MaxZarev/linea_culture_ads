@@ -46,4 +46,5 @@ class Quests(Enum):
     quest_21 = Quest('w3-townstory', continue_count=2, verify_count=2)
     quest_22 = Quest('w3-danielle-zosavac', continue_count=1, verify_count=2)
     quest_23 = Quest('w3-demmortal', continue_count=1, verify_count=2)
+    quest_24 = Quest('w3-foxy', continue_count=1, verify_count=2)
 
