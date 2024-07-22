@@ -40,11 +40,12 @@ class Quests(Enum):
     quest_15 = Quest('w2-frog-wars', continue_count=2, verify_count=2)
     quest_16 = Quest('w2-acg', continue_count=2, verify_count=2)
     quest_17 = Quest('w2-toad', continue_count=2, verify_count=2)
-    quest_18 = Quest('week-2-voting', continue_count=2, verify_count=1, vote_options=5)
+    quest_18 = Quest('week-2-voting', continue_count=2, verify_count=1, vote_options=6)
     quest_19 = Quest('w3-ascendtheend-1', continue_count=1, verify_count=2)
     quest_20 = Quest('w3-sendingme', continue_count=2, verify_count=2)
     quest_21 = Quest('w3-townstory', continue_count=2, verify_count=2)
     quest_22 = Quest('w3-danielle-zosavac', continue_count=1, verify_count=2)
     quest_23 = Quest('w3-demmortal', continue_count=1, verify_count=2)
     quest_24 = Quest('w3-foxy', continue_count=1, verify_count=2)
+    quest_25 = Quest('week-3-voting', continue_count=2, verify_count=1, vote_options=6)
 

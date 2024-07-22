@@ -250,7 +250,7 @@ class Linea(Client):
         if vote_options := quest.value.vote_options:
             self.click("//button[text()='Continue']")
             vote = random.randint(1, vote_options)
-            self.click(f"//button[@id='a{vote}']")
+            self.click(f"//button[@role='radio'][{vote_options}]")
             sleep_random(3, 5)
             self.click("//button[text()='Continue']")
             sleep_random(10, 15)
@@ -281,3 +281,4 @@ class Linea(Client):
         lxp = self.get_text("//div[text()='Total L•XP']/following-sibling::div")
         logger.info(f"{self.ads_num} LXP: {lxp}")
         Database.change_status("lxp", str(lxp), self.ads_num)
+
