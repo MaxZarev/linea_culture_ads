@@ -48,4 +48,5 @@ class Quests(Enum):
     quest_23 = Quest('w3-demmortal', continue_count=1, verify_count=2)
     quest_24 = Quest('w3-foxy', continue_count=1, verify_count=2)
     quest_25 = Quest('week-3-voting', continue_count=2, verify_count=1, vote_options=6)
+    quest_26 = Quest('w4-coop-records', continue_count=1, verify_count=2)
 
