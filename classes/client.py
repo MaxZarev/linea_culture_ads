@@ -250,7 +250,7 @@ class Linea(Client):
         if vote_options := quest.value.vote_options:
             self.click("//button[text()='Continue']")
             vote = random.randint(1, vote_options)
-            self.click(f"//button[@role='radio'][{vote_options}]")
+            self.click(f"//button[@role='radio'][{vote}]")
             sleep_random(3, 5)
             self.click("//button[text()='Continue']")
             sleep_random(10, 15)
