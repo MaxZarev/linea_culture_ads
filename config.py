@@ -44,4 +44,5 @@ quests_config = {
     'quest_25': 1,  # week-3-voting
     'quest_26': 1,  # w4-coop-records
     'quest_27': 1,  # w4-borja-moskv
+    'quest_28': 1,  # w4-forbidden-fruit
 }

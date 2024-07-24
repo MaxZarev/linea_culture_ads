@@ -50,5 +50,6 @@ class Quests(Enum):
     quest_25 = Quest('week-3-voting', continue_count=2, verify_count=1, vote_options=6)
     quest_26 = Quest('w4-coop-records', continue_count=1, verify_count=2)
     quest_27 = Quest('w4-borja-moskv', continue_count=1, verify_count=2)
+    quest_28 = Quest('w4-forbidden-fruit', continue_count=1, verify_count=2)
 
 
