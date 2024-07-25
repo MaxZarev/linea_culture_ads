@@ -51,6 +51,6 @@ class Quests(Enum):
     quest_26 = Quest('w4-coop-records', continue_count=1, verify_count=2)
     quest_27 = Quest('w4-borja-moskv', continue_count=1, verify_count=2)
     quest_28 = Quest('w4-forbidden-fruit', continue_count=1, verify_count=2)
-    quest_29 = Quest('w4-forbidden-fruit-crux', continue_count=1, verify_count=2, mint_proxy=True)
+    quest_29 = Quest('w4-forbidden-fruit-crux', continue_count=1, verify_count=2)
 
 
