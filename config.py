@@ -46,4 +46,5 @@ quests_config = {
     'quest_27': 1,  # w4-borja-moskv
     'quest_28': 1,  # w4-forbidden-fruit
     'quest_29': 1,  # w4-forbidden-fruit-crux
+    'quest_30': 1,  # w4-forbidden-fruit-stonez-the-organic
 }

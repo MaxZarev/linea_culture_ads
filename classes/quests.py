@@ -52,5 +52,6 @@ class Quests(Enum):
     quest_27 = Quest('w4-borja-moskv', continue_count=1, verify_count=2)
     quest_28 = Quest('w4-forbidden-fruit', continue_count=1, verify_count=2)
     quest_29 = Quest('w4-forbidden-fruit-crux', continue_count=1, verify_count=2)
+    quest_30 = Quest('w4-forbidden-fruit-stonez-the-organic', continue_count=1, verify_count=2)
 
 
